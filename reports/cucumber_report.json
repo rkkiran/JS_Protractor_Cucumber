@@ -1,0 +1,528 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Register a account on automationpractice.com",
+    "line": 1,
+    "id": "register-a-account-on-automationpractice.com",
+    "tags": [],
+    "uri": "featureFiles\\automationPractice.feature",
+    "elements": [
+      {
+        "id": "register-a-account-on-automationpractice.com;user-creates-a-new-account-with-a-valid-form-and-clicks-register",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "User creates a new account with a valid form and clicks register",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user navigates to automation practice home page and clicks on Sign in",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55041000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user enters 'testtesty' in eamil text box on authentication page and clicks on Create an account",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4449000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Title",
+                      "FirstName",
+                      "LastName",
+                      "Email",
+                      "Password",
+                      "DatOfBirth",
+                      "Company",
+                      "Address",
+                      "City",
+                      "State",
+                      "PostalCode",
+                      "Country",
+                      "Information",
+                      "HPhone",
+                      "MPhone",
+                      "Alias"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Mr",
+                      "FirstNameIS",
+                      "lastNameIS",
+                      "testtesty",
+                      "12345678",
+                      "3-12-2000",
+                      "NewCompany",
+                      "New Address",
+                      "NewCity",
+                      "5",
+                      "12345",
+                      "21",
+                      "No Info",
+                      "1234567890",
+                      "123456780",
+                      "NOAlias"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Mr",
+                      "",
+                      "",
+                      "testtesty0",
+                      "",
+                      "3-12-2000",
+                      "NewCompany",
+                      "",
+                      "NewCity",
+                      "5",
+                      "1",
+                      "21",
+                      "No Info",
+                      "",
+                      "",
+                      "NOAlias"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user creates an accounts by filling the 'valid' form and then clicks on Register button",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should 'register' successfully and 'FirstNameIS lastNameIS' 'should' be dispalyed on top right side of the page",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-a-account-on-automationpractice.com;user-creates-a-new-account-with-a-invalid-form-and-clicks-register",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "User creates a new account with a invalid form and clicks register",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user navigates to automation practice home page and clicks on Sign in",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14055000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user enters 'testtesty0' in eamil text box on authentication page and clicks on Create an account",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4340000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Title",
+                      "FirstName",
+                      "LastName",
+                      "Email",
+                      "Password",
+                      "DatOfBirth",
+                      "Company",
+                      "Address",
+                      "City",
+                      "State",
+                      "PostalCode",
+                      "Country",
+                      "Information",
+                      "HPhone",
+                      "MPhone",
+                      "Alias"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Mr",
+                      "FirstNameIS",
+                      "lastNameIS",
+                      "testtesty",
+                      "12345678",
+                      "3-12-2000",
+                      "NewCompany",
+                      "New Address",
+                      "NewCity",
+                      "5",
+                      "12345",
+                      "21",
+                      "No Info",
+                      "1234567890",
+                      "123456780",
+                      "NOAlias"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Mr",
+                      "",
+                      "",
+                      "testtesty0",
+                      "",
+                      "3-12-2000",
+                      "NewCompany",
+                      "",
+                      "NewCity",
+                      "5",
+                      "1",
+                      "21",
+                      "No Info",
+                      "",
+                      "",
+                      "NOAlias"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user creates an accounts by filling the 'invalid' form and then clicks on Register button",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13875000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should 'not register' successfully and 'FirstNameIS lastNameIS' 'should not' be dispalyed on top right side of the page",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-a-account-on-automationpractice.com;login-with-the-newly-created-user",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Login with the newly created user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user navigates to automation practice home page and clicks on Sign in",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12507000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user sign in using email as 'testtesty' and password as '12345678'",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user should 'sign in' successfully and 'FirstNameIS lastNameIS' 'should' be dispalyed on top right side of the page",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-a-account-on-automationpractice.com;when-user-creates-an-account-without-passing-email-text-and-clicks-on-create-an-account-button-then-error-message-should-be-displayed",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "When user creates an account without passing email text and clicks on create an account button then error message should be displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user navigates to automation practice home page and clicks on Sign in",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "user enters '@xyzx.com' in eamil text box on authentication page and clicks on Create an account",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8387000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "'Invalid email address.' message should be displayed after clicking create an account button",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-a-account-on-automationpractice.com;when-user-creates-an-account-with-an-already-registered-email-address-and-clicks-on-create-an-account-button-then-error-message-should-be-displayed",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "When user creates an account with an already registered email address and clicks on create an account button then error message should be displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user navigates to automation practice home page and clicks on Sign in",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6524000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "user enters 'testtesty' in eamil text box on authentication page and clicks on Create an account",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19846000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "'An account using this email address has already been registered. Please enter a valid password or request a new one.' message should be displayed after clicking create an account button",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "register-a-account-on-automationpractice.com;when-user-creates-an-account-with-out-passing-@gmail.com-in-email-address-and-clicks-on-create-an-account-button-then-error-message-should-be-displayed",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "When user creates an account with out passing @gmail.com in email address and clicks on create an account button then error message should be displayed",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user navigates to automation practice home page and clicks on Sign in",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11138000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "user enters 'noemail' in eamil text box on authentication page and clicks on Create an account",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17299000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "'Invalid email address.' message should be displayed after clicking create an account button",
+            "match": {
+              "location": "stepDefinition\\automationPractice.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
